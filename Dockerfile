@@ -1,5 +1,5 @@
 FROM python:3.11
-WORKDIR /app
-COPY . /app
+WORKDIR /main
+COPY . /main
 RUN pip install --no-cache-dir -r requirements.txt
-CMD ["sh", "-c", "python app.py & python bot.py"]
+CMD ["sh", "-c", "python main.py & python bot.py"]
