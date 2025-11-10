@@ -20,7 +20,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await context.bot.send_message(
             chat_id=update.effective_chat.id,
-            text=f"You are not registered. Please sign up here: {SIGNUP_URL}"
+            text=f"You are not registered. Please sign up here: {SIGNUP_URL} {user_id}"
         )
 
 if __name__ == "__main__":
