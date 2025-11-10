@@ -4,3 +4,6 @@ autopep8
 
 # App
 flask
+python-telegram-bot==20.0
+flask
+pymongo
